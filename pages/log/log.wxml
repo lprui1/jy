@@ -23,6 +23,6 @@
   </view>
   <!--提交按钮-->
   <view class="sub">
-    <button bindtap="sub">tijiao</button>
+    <button bindtap="sub">刘鹏睿是韩寒</button>
   </view>
 </view>
