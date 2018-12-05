@@ -1,0 +1,17 @@
+<view class="list">
+  <!--集团通知-->
+  <view class="listhead">
+    {{title}}
+  </view>
+  <!--通知列表-->
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text" wx:for="{{list}}" wx:key="index">
+          <view class="weui-media-box__desc">
+            <text class="iconfont icon-tongzhi"></text>
+            <text class="title" bindtap="details" data-goodsid="{{item.id}}">{{item.bt}}</text>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

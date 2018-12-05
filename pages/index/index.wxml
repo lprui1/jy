@@ -1,0 +1,80 @@
+<!--index.wxml-->
+<view class="home">
+  <!--姓名-->
+  <view class="username">
+    <view>姓名</view>
+  </view>
+  <!--轮播-->
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="500">
+    <block> 
+      <swiper-item>            
+        <image src="../../img/1.jpg" class="slide-image" mode="aspectFill"/>
+      </swiper-item>
+      <swiper-item>            
+        <image src="../../img/2.jpg" class="slide-image" mode="aspectFill"/>
+      </swiper-item> 
+      <swiper-item>            
+        <image src="../../img/3.jpg" class="slide-image" mode="aspectFill"/>
+      </swiper-item>  
+    </block>      
+  </swiper>
+  <!--nav-->
+  <view class="page__bd">
+    <view class="weui-grids">
+      <block wx:for="{{grids}}" wx:key="*this">
+        <view class="weui-grid" hover-class="weui-grid_active">
+          <icon class="iconfont+{{item.icon}} tubiao"></icon>
+          <view class="weui-grid__label" bindtap='LIST' data-id="{{item.id}}">{{item.name}}</view>
+        </view>
+      </block>
+    </view>
+  </view><!--nav end-->
+   <!--集团通知-->
+   <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">
+      <text>集团通知</text>
+      <text class="more" bindtap='moreone' data-tiao="tongzhi">查看更多<text class="iconfont icon-NextPage"></text></text>
+    </view>
+    <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text" wx:for="{{notice}}" wx:key="index">
+            <view class="weui-media-box__desc">{{item.bt}}</view>
+        </view>
+    </view>
+  </view>
+  <!--集团新闻-->
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">
+      <text>集团新闻</text>
+      <text class="more" bindtap='moreone' data-tiao="news">查看更多<text class="iconfont icon-NextPage"></text></text>
+    </view>
+    <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text" wx:for="{{newslist}}" wx:key="index">
+            <view class="weui-media-box__desc">{{item.bt}}</view>
+        </view>
+    </view>
+  </view>
+  <!--优惠活动-->
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">
+      <text>优惠活动</text>
+      <text class="more" bindtap='moreone' data-tiao="huodong">查看更多<text class="iconfont icon-NextPage"></text></text>
+    </view>
+    <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text" wx:for="{{activity}}" wx:key="index">
+            <view class="weui-media-box__desc">{{item.bt}}</view>
+        </view>
+    </view>
+  </view>
+  <!--政策制度-->
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">
+      <text>政策制度</text>
+      <text class="more" bindtap='moreone' data-tiao="zc">查看更多<text class="iconfont icon-NextPage"></text></text>
+    </view>
+    <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text" wx:for="{{zclist}}" wx:key="index">
+            <view class="weui-media-box__desc">{{item.bt}}</view>
+        </view>
+    </view>
+  </view>
+</view>

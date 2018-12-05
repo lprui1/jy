@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/log/log",
+    "pages/index/index",
+    "pages/find/find",
+    "pages/stutentfind/studentfind",
+    "pages/report/report",
+    "pages/list/list",
+    "pages/predictionlist/predictionlist",
+    "pages/prediction/prediction",
+    "pages/job/job",
+    "pages/detail/detail",
+    "pages/organization/organization",
+    "pages/reportdetail/reportdetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "积云信息平台市场专用",
+    "navigationBarTextStyle": "black"
+  }
+}

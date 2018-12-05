@@ -1,0 +1,20 @@
+<view class="find">
+  <view class="findhead">
+    信息查询
+  </view>
+  <view class="findmain">
+    <input placeholder='请在此输入你要查找的关键字' value='{{val}}'  bindinput='put'/>
+    <text class="iconfont icon-chazhao1" bindtap=''></text>
+  </view>
+  <!--搜索信息-->
+  <view class="search">
+    <view class="searchlist"  wx:for="{{messlist}}" wx:key="index">
+      <view>专业 ： {{item.bname}}</view>
+      <view>班级 ： {{item.cname}}</view>
+      <view>姓名 ： {{item.sname}}</view>
+      <view>地址 ： {{item.saddress}}</view>
+      <view>是否就业 ： {{item.jstate}}</view>
+      <view>薪资 ： {{item.jsalary}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+<view class="studentfind">
+  <view class="findhead">
+    在校生查询
+  </view>
+  <view class="findmain">
+    <input placeholder='请在此输入你要查找的关键字'/>
+    <text class="iconfont icon-chazhao1"></text>
+  </view>
+  <!--搜索信息-->
+  <view class="search">
+    <view class="searchmain">
+      <view class="student1">
+        <view class="name">学生基本信息</view>
+        <view>姓名 ： 111</view>
+        <view>身份证号 ： 111</view>
+      </view>
+      <view class="student1">
+        <view class="name">当前班级信息</view>
+        <view>专业 ： 111</view>
+        <view>班级 ： 111</view>
+      </view>
+      <view class="student1">
+        <view class="name">缴费信息</view>
+        <view>专业 ： 111</view>
+        <view>班级 ： 111</view>
+      </view>
+    </view>
+    <view class="searchmain">
+      <view class="student1">
+        <view class="name">学生基本信息</view>
+        <view>姓名 ： 111</view>
+        <view>身份证号 ： 111</view>
+      </view>
+      <view class="student1">
+        <view class="name">当前班级信息</view>
+        <view>专业 ： 111</view>
+        <view>班级 ： 111</view>
+      </view>
+      <view class="student1">
+        <view class="name">缴费信息</view>
+        <view>专业 ： 111</view>
+        <view>班级 ： 111</view>
+      </view>
+    </view>
+  </view>
+</view>
+

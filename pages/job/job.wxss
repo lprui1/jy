@@ -1,0 +1,45 @@
+.jobhead{
+  text-align:center;
+}
+/*列表*/
+.jobmain{
+  width:100%;
+  margin-top:20rpx;
+  font-size:30rpx;
+}
+.jobtop{
+  background:#999;
+  width:100%;
+  height:80rpx;
+  line-height:80rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.jobtop text{
+  width:20%;
+  border-right:1px solid #ccc;
+  text-align:center;
+  color:#fff;
+}
+.joblist{
+  width:100%;
+  height:80rpx;
+  line-height:80rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.joblist text{
+  width:20%;
+  text-align: center;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+.joblist text:last-child{
+  border-right:none;
+}
+/*超出部分隐藏*/
+.chao{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

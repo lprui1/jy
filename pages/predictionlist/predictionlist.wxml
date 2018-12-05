@@ -1,0 +1,14 @@
+<view class="predictionlist">
+  <view class="prehead">
+    预报名学生列表
+  </view>
+  <view class="prelist">
+    <view class="list"  wx:for="{{prelists}}" wx:key="index">
+      <view>姓名 ： {{item.username}}</view>
+      <view>性别 ： {{item.sex}}</view>
+      <view>身份证号 ： {{item.card}}</view>
+      <view>联系方式 ： {{item.tel}}</view>
+      <view>学历： {{item.education}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+<view class="prediction">
+  <view class="predictionhead">
+    预报名学生信息
+  </view>
+  <!--姓名、身份证号、学历、电话、性别、时间-->
+  <view class="predictionmain">
+    <view class="panle1">
+      <text class="iconfont icon-yonghu"></text>
+      <input type="text" placeholder='请输入姓名' value='{{username}}' bindinput="username"/>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-shenfenzhenghao"></text>
+      <input type="number" placeholder='请输入身份证号' value='{{card}}' bindinput='cards' maxlength='18'/>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-xueli1"></text>
+      <picker bindchange="bindPickerChange" range="{{array}}">
+        <input type="text" placeholder='请选择学历' value="{{education}}"/>
+      </picker>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-dianhua"></text>
+      <input type="text" placeholder='请输入手机号' value='{{tel}}' bindinput='tels' maxlength='11'/>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-xingbie1"></text>
+      <picker bindchange="bindPickersex" range="{{arr}}">
+        <input type="text" placeholder='请选择性别' value="{{sex}}"/>
+      </picker>
+      <!-- <input type="text" placeholder='请输入性别' value='{{sex}}' bindinput='sexs'/> -->
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-xingbie1"></text>
+      <input type="text" placeholder='请输入招生老师' value='{{tea}}' bindinput='teas'/>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-xingbie1"></text>
+      <picker mode="date" value="{{date}}" start="2018-11-1" end="2030-11-1" bindchange="bindDateChange">
+        <input type="text" placeholder='请选择日期' value="{{date}}"/>
+      </picker>
+      <!-- <input type="text" placeholder='请输入性别' value='{{sex}}' bindinput='sexs'/> -->
+    </view>
+  </view>
+  <!--提交-->
+  <view class="presub">
+    <button bindtap="submess">提交信息</button>
+  </view>
+  <!--预报名学生列表-->
+  <view class="ybm">
+    <button bindtap="look">去查看预报名学生列表</button>
+  </view>
+</view>

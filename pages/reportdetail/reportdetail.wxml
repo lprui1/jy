@@ -1,0 +1,23 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="detail">
+  <!--文章详情页-->
+  <view class="detailhead">
+    {{redetaillist.bt}}
+  </view>
+  <!--标题、副标题、发布人、发布时间-->
+  <!-- <view class="detailmess">
+    <!--副标题-->
+    <!-- <view class="subhead">{{redetaillist.bt}}</view> -->
+    <view class="main">
+      <text>发布人：{{redetaillist.username}}</text>
+      <text>发布时间：{{redetaillist.date}}</text>
+    </view>
+  <view class="detailmain">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+    <!-- <view></view> -->
+  </view>
+  <!---->
+  <view></view>
+  <!-- hello -->
+</view>
+

@@ -1,0 +1,25 @@
+.detailhead{
+  width:90%;
+  margin:0 auto;
+  text-align: center;
+  color:#12caf8;
+}
+.subhead{
+  color:#999;
+  font-size:30rpx;
+  text-align:center;
+  /* margin-left:100rpx; */
+}
+.main{
+  font-size:26rpx;
+  color:#999;
+  display: flex;
+  justify-content: space-around;
+}
+.detailmain{
+  padding-top:30rpx;
+  font-size:28rpx;
+  text-indent:50rpx;
+  line-height:60rpx;
+  padding:0 30rpx;
+}

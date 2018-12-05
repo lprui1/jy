@@ -1,0 +1,22 @@
+<view class="job">
+  <view class="jobhead">
+    就业利好
+  </view>
+  <!--列表-->
+  <view class="jobmain">
+    <view class="jobtop">
+      <text>专业</text>
+      <text>班级</text>
+      <text>姓名</text>
+      <text>籍贯</text>
+      <text>薪资(元)</text>
+    </view>
+    <view class="joblist" wx:for="{{joblist}}" wx:key="index">
+      <text class="chao">{{item.bname}}</text>
+      <text>{{item.cname}}</text>
+      <text>{{item.sname}}</text>
+      <text class="chao">{{item.saddress}}</text>
+      <text>{{item.jsalary}}</text>
+    </view>
+  </view>
+</view>

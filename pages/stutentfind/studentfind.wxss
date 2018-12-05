@@ -1,0 +1,51 @@
+.studentfind{
+  /* background:#f08325; */
+  background:#12caf8;
+}
+.findhead{
+  text-align: center;
+  padding-bottom:30rpx;
+  background:#fff;
+}
+.findmain{
+  width:100%;
+  display: flex;
+  background:#fff;
+  justify-content: space-around;
+}
+.findmain input{
+  width:80%;
+  border:1px solid #ccc;
+  font-size:26rpx;
+  padding-left:20rpx;
+}
+.findmain .iconfont{
+  font-size:40rpx;
+  font-weight:bold;
+}
+/*查找*/
+.search{
+  width:100%;
+}
+.searchmain{
+  margin-bottom:10rpx;
+  padding:20rpx;
+  background:#fff;
+}
+.student1{
+  font-size:30rpx;
+  background:#fff;
+  line-height:60rpx;
+  /* border:1px solid #ccc; */
+  /* padding:15rpx 0; */
+}
+.student1:last-child{
+  border:none;
+}
+.name{
+  /* background:#f08325; */
+  /* background:#12caf8; */
+  background:#ccc;
+  text-align: center;
+  color:#fff;
+}

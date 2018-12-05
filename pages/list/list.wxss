@@ -1,0 +1,24 @@
+/* pages/list/list.wxss */
+.list .listhead{
+  text-align: center;
+  padding:0;
+}
+.iconfont{
+  color:#12caf8;
+  font-size:50rpx;
+  padding-right:20rpx;
+}
+.weui-panel{
+  background:#f1f1f1;
+}
+.weui-media-box{
+  background:#fff;
+  margin-top:4px;
+  color:#000;
+  padding:10px 15px;
+}
+.title{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}

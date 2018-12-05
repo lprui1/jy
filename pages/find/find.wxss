@@ -1,0 +1,41 @@
+.findhead{
+  text-align: center;
+  padding-bottom:30rpx;
+}
+.findmain{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+.findmain input{
+  width:80%;
+  border:1px solid #ccc;
+  font-size:26rpx;
+  padding-left:20rpx;
+  /* text-indent:20rpx; */
+}
+.findmain .iconfont{
+  font-size:40rpx;
+  font-weight:bold;
+}
+/*查找*/
+.search{
+  /* margin-top:50rpx; */
+}
+.searchlist{
+  width:100%;
+  padding:20rpx 30rpx;
+  font-size:26rpx;
+  margin-bottom:10rpx;
+  border-bottom:1px solid #ccc;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}

@@ -1,0 +1,41 @@
+.predictionhead{
+  text-align:center;
+}
+.predictionmain{
+  margin-top:30rpx;
+}
+.panle1{
+  width:100%;
+  padding:10rpx 60rpx;
+  margin-bottom:20rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid #ccc;
+}
+.panle1 text{
+  width:10%;
+}
+.panle1 .iconfont{
+  font-size:38rpx;
+  color:#73a6ff;
+}
+.panle1 input{
+  width:90%;
+  font-size:30rpx;
+}
+picker{
+  width:90%;
+}
+.presub,.ybm{
+  width:90%;
+  margin:0 auto;
+  margin-top:30rpx;
+}
+.presub button,.ybm button{
+  background:#73a6ff;
+  color:#fff;
+  font-size:30rpx;
+}
+.ybm button{
+  background:orange;
+}

@@ -1,0 +1,28 @@
+<!--登录-->
+<view class="login">
+  <!--logo-->
+  <view class="logo">
+    <image src="../../img/logo.jpg"></image>
+  </view>
+  <!--登录信息-->
+  <view class="logmain">
+    <view class="panle1">
+      <text class="iconfont icon-yonghu"></text>
+      <input type="text" placeholder='请输入姓名' value='{{username}}' bindinput='usernames'/>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-shouji"></text>
+      <input type="text" placeholder='请输入手机号' value='{{tel}}' bindinput='tels' maxlength='11'/>
+    </view>
+    <view class="panle1">
+      <text class="iconfont icon-mima1"></text>
+      <input type="password" placeholder='请输入密码' value='{{password}}' bindinput='passwords'/>
+    </view>
+    <!--提示信息-->
+    <view class='hint' value="{{hint}}"></view>
+  </view>
+  <!--提交按钮-->
+  <view class="sub">
+    <button bindtap="sub">提交</button>
+  </view>
+</view>

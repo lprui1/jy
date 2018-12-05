@@ -1,0 +1,13 @@
+/**app.wxss**/
+/*图标*/
+@import 'style/iconfont.wxss';
+@import 'weui.wxss';
+.container {
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 

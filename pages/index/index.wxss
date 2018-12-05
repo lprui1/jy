@@ -1,0 +1,72 @@
+/**index.wxss**/
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:#f1f1f1;
+}
+ .username{
+  width:100%;
+  background:#fff;
+} 
+.username view{
+  width:10%;
+  margin:0 auto;
+ }  
+/*轮播*/
+.swiper{
+  width:100%;
+  height:400rpx;
+  padding-top:10rpx;
+  background:#fff;
+}
+.swiper swiper-item{
+  width:100%;
+}
+.swiper swiper-item image{
+  width:100%;
+  height:100%;
+}
+/*导航条*/
+.page__bd{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  background:#fff;
+  border:none;
+}
+.weui-grid{
+  width:20%;
+  text-align: center;
+  margin:0 auto;
+  border:none;
+}
+.weui-panel{
+  width:100%;
+}
+.weui-panel__hd{
+  color:red;
+  display: flex;
+  justify-content: space-between;
+  font-size:26rpx;
+}
+.more{
+  color:#0081cb;
+  font-size:26rpx;
+}
+.tubiao{
+  font-size:50rpx;
+  color:#12caf8;
+}
+.weui-grid__label{
+  font-size:20rpx;
+}
+.weui-panel__hd .iconfont{
+  font-size:20rpx;
+  color:#12caf8;
+}
+.weui-media-box__desc{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
