@@ -11,7 +11,8 @@
     "pages/job/job",
     "pages/detail/detail",
     "pages/organization/organization",
-    "pages/reportdetail/reportdetail"
+    "pages/reportdetail/reportdetail",
+"pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
