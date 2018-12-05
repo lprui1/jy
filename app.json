@@ -1,7 +1,7 @@
 ﻿{
   "pages": [
-    "pages/index/index",
 "pages/log/log",
+    "pages/index/index",
     "pages/find/find",
     "pages/stutentfind/studentfind",
     "pages/report/report",
@@ -12,7 +12,6 @@
     "pages/detail/detail",
     "pages/organization/organization",
     "pages/reportdetail/reportdetail",
-"pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
