@@ -23,6 +23,6 @@
   </view>
   <!--提交按钮-->
   <view class="sub">
-    <button bindtap="sub">登录</button>
+    <button bindtap="sub">猪八戒</button>
   </view>
 </view>
