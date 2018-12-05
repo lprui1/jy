@@ -1,7 +1,7 @@
-{
+﻿{
   "pages": [
-    "pages/log/log",
     "pages/index/index",
+"pages/log/log",
     "pages/find/find",
     "pages/stutentfind/studentfind",
     "pages/report/report",
